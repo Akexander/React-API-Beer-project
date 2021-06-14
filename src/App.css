@@ -1,38 +1,98 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+  /* background-color: rgba(235, 235, 241, 0.781); */
+  background-image: url(./ice.jpg);
+  
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  margin-top: 40px;
+  font-family:  Arial, sans-serif;
+}
+
+.submitSearch {
+  width: 345px;
+  height: 40px;
+  border-radius: 6px;
+  border-style: none;
+  background-color: rgba(209, 209, 214, 0.76);
+  font-size: 20px;
+  color: rgba(73, 70, 70, 0.897);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.beerCard {
+  display: flex;
+  /* grid-template-rows: auto; */
+  text-align: center;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.beerCard {
   display: flex;
   flex-direction: column;
+  border: 3px solid rgba(0, 0, 0, 0.336);
+  border-radius: 15px;
+
+  margin: 100px 0px 100px 130px;
+  height: 340px;
+  width: 80%;
+  background-color: rgba(137, 220, 224, 0.39);
+  z-index: 10;
+}
+
+.image {
+  display: flex;
+  align-self: flex-end;
+  margin: 20px 80px;
+  height: 300px;
+  width: 300px;
+}
+
+.line-Break {
+  display: flex;
+  /* align-items: flex-end; */
+  border: 2px solid black;
+  width: 20%;
+  height: 0px;
+  margin: 0% 0% 0% 500%;
+  padding: 50px;
+  
+}
+
+.text-copy {
+  display: flex;
+  flex-direction: column;
+  align-self: left;
+  text-align: left;
+  float: left;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ 
+  width: 50%;
+  height: 0px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+
+h2 {
+  padding: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
