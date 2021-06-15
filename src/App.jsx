@@ -32,6 +32,9 @@ function App() {
       <>
       <section className="header">
       <h1>Beers Online</h1>
+     
+
+      
       <form className="beerSearchInput">
         <input type="text" placeholder="Choose your beer..." className="submitSearch" onChange={handleChange} />
       </form>
@@ -50,7 +53,7 @@ function App() {
           <br />
           <h3>ABV:{beers.abv}</h3>
           </section>
-          <img className="image" src="{beers.image_url}" alt="image" />
+          <img className="image" src={beers.image_url} alt="image" />
           </section>
         );
         })}
