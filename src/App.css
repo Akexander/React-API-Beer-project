@@ -1,44 +1,40 @@
-*{
+* {
   margin: 0;
   padding: 0;
-  
 }
 
 body {
   /* background-color: rgba(235, 235, 241, 0.781); */
-  background-image: url(./ice.jpg);
-  
+  background-image: url(./images/ice.jpg);
 }
 
-.header{
+.header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 40px;
   margin-top: 40px;
-  font-family:  Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 .submitSearch {
-  width: 345px;
-  height: 40px;
+  width: 445px;
+  height: 60px;
   border-radius: 6px;
   border-style: none;
   background-color: rgba(209, 209, 214, 0.76);
   font-size: 20px;
-  color: rgba(73, 70, 70, 0.897);
+  color: rgba(56, 54, 54, 0.925);
   text-align: center;
+  margin-top: -90px;
 }
-
 
 .beerCard {
   display: flex;
   /* grid-template-rows: auto; */
   text-align: center;
-  
 }
-
 
 .beerCard {
   display: flex;
@@ -69,7 +65,6 @@ body {
   height: 0px;
   margin: 0% 0% 0% 500%;
   padding: 50px;
-  
 }
 
 .text-copy {
@@ -79,7 +74,7 @@ body {
   text-align: left;
   float: left;
   align-items: center;
- 
+
   width: 50%;
   height: 0px;
   margin-top: 20px;
@@ -88,11 +83,6 @@ body {
   font-weight: bold;
 }
 
-
 h2 {
   padding: 30px;
 }
-
-
-
-
