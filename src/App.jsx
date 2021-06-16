@@ -2,6 +2,7 @@ import "./App.css";
 import React, { useState, useEffect } from "react";
 import logo1 from "./images/logo1.png";
 import logo2 from "./images/logo2.png";
+import logo3 from "./images/logo3.png";
 
 function App() {
   const [beers, updateBeers] = useState([]);
@@ -30,7 +31,7 @@ function App() {
     <>
       <section className="header">
         <div>
-          <img src={logo2} alt="" />
+          <img src={logo3} alt="" />
         </div>
 
         <form className="beerSearchInput">
